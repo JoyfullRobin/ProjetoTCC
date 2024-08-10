@@ -1,5 +1,7 @@
 import React from 'react';
 import { View,Image, TouchableOpacity, Text, Button, StyleSheet } from 'react-native';
+import LOGIN from './login';
+
 
 const Seguranca = ({ navigation }) => {
     return (
@@ -12,7 +14,7 @@ const Seguranca = ({ navigation }) => {
         <Text style={styles.texto}>Segurança</Text>
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigation.navigate('pesquisar')}>
+          onPress={() => navigation.navigate('LOGIN')}>
           <Text style={styles.buttonText}>Continuar</Text>
         </TouchableOpacity>
       </View>
